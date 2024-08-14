@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hello', 'IloveYou', 'No', 'Please', 'Thanks']
+
+roboflow:
+  workspace: rittik
+  project: sign-language-detection-oakou
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rittik/sign-language-detection-oakou/dataset/1
